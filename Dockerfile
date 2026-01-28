@@ -1,3 +1,8 @@
 FROM datalust/seq:latest
+
+ENV SEQ_FIRING_LINE=1
+
 EXPOSE 80
 EXPOSE 5341
+
+CMD ["run"]
