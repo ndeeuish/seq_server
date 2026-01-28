@@ -1,8 +1,5 @@
 FROM datalust/seq:latest
 
-ENV SEQ_FIRING_LINE=1
+ENV ACCEPT_EULA=Y
 
 EXPOSE 80
-EXPOSE 5341
-
-CMD ["run"]
